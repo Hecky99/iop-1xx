@@ -30,9 +30,9 @@ function init() {
             console.log(data.MenuName);
 
             $('nav').append('<a href="' + data.MenuLink + '">' + data.MenuName + '</a>')
-          });
-        }
-        },
+          })
+        };
+      },
         error: function() {
           console.log('all is not good');
         }
