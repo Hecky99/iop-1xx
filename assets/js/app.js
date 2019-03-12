@@ -16,7 +16,7 @@ function init() {
   $.ajax({
 
       method: 'GET',
-      url: 'iop-1xx/assets/data/menu.json',
+      url: '/iop-1xx/assets/data/menu.json',
       dataType: 'json',
       success: function(data) {
         console.log('all good');
